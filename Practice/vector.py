@@ -37,8 +37,8 @@ def dot_multiplication(u, v):
 
 
 if np.array_equal(dot_multiplication(u, v), vector_multip(u, v)):
-    print("Hello world!")
+    print("Equal")
 else:
-    print("Hiiiiii")
+    print("Not Equal")
                 
                 

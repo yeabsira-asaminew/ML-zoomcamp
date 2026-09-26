@@ -19,7 +19,7 @@ def vector_multip(u, v):
 
 def dot_multiplication(u, v):
     assert u.shape[1] == v.shape[0]
-    # why u.shape[] is shape function?
+    
     rows_u = u.shape[0] 
     rows_v = v.shape[0]
     columns_u = u.shape[1]
